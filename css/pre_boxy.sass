@@ -1,0 +1,132 @@
+@charset "utf-8"
+
+/* CSS Document
+
+.boxy-wrapper
+  position: absolute
+  &.fixed
+    position: fixed
+
+/* Modal
+
+.boxy-modal-blackout
+  position: absolute
+  background-color: black
+  left: 0
+  top: 0
+
+/* Border
+
+.boxy-wrapper
+  empty-cells: show
+  .top-left, .top-right, .bottom-right, .bottom-left
+    width: 10px
+    height: 10px
+    padding: 0
+  .top-left
+    background: url(../images/boxy/boxy-nw.png)
+  .top-right
+    background: url(../images/boxy/boxy-ne.png)
+  .bottom-right
+    background: url(../images/boxy/boxy-se.png)
+  .bottom-left
+    background: url(../images/boxy/boxy-sw.png)
+  .top-left
+    #background: none
+    #filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/boxy/boxy-nw.png)
+  .top-right
+    #background: none
+    #filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/boxy/boxy-ne.png)
+  .bottom-right
+    #background: none
+    #filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/boxy/boxy-se.png)
+  .bottom-left
+    #background: none
+    #filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/boxy/boxy-sw.png)
+  .top, .bottom
+    height: 10px
+    background-color: black
+    opacity: 0.6
+    filter: alpha(opacity = 60)
+    padding: 0
+  .left, .right
+    width: 10px
+    background-color: black
+    opacity: 0.6
+    filter: alpha(opacity = 60)
+    padding: 0
+  .title-bar
+    background-color: #333333
+    padding: 6px
+    position: relative
+    &.dragging
+      cursor: move
+    h2
+      font-size: 12px
+      color: white
+      line-height: 1
+      margin: 0
+      padding: 0
+      font-weight: normal
+    .close
+      color: white
+      position: absolute
+      top: 5px
+      right: 6px
+      font-size: 12px
+      &:hover
+        background-color: #454545
+
+/* IE6+7 hacks for the border. IE7 should support this natively but fails in conjuction with modal blackout bg.
+/* NB:these must be absolute paths or URLs to your images
+
+/* Title bar
+
+/* Content Region
+
+.boxy-inner
+  background-color: white
+  padding: 0
+
+.boxy-content
+  padding: 15px
+
+/* Question Boxes
+
+.boxy-wrapper
+  .question
+    width: 350px
+    min-height: 60px
+    _height: 60px
+  .answers
+    text-align: right
+
+/*confirm btn by zhangxinxu http://www.zhangxinxu.com
+
+.boxy-btn1, .boxy-btn2, .boxy-btn3
+  padding: 3px 12px 1.9px
+  border-width: 1px
+  border-style: solid
+  letter-spacing: 1px
+  line-height: 15px
+  cursor: pointer
+  overflow: visible
+
+.boxy-btn1
+  background-color: #425f99
+  border-color: #5A7EC6 #2C3E5F #2C3E5F #5A7EC6
+  color: white
+
+.boxy-btn2
+  background-color: #ECE9D8
+  border-color: #eeeeee #bbbbbb #bbbbbb #eeeeee
+  color: #333333
+
+.boxy-btn3
+  background-color: #EAEAEA
+  border-color: #EAEAEA #aaaaaa #aaaaaa #EAEAEA
+  color: #333333
+  padding: 3px 5px 1.9px
+  &:hover
+    background-color: #cad5eb
+    border-color: #CED8E3 #A2ADBC #A2ADBC #CED8E3
