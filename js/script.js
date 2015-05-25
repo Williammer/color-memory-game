@@ -1,7 +1,6 @@
 var $j = jQuery.noConflict();
 
 	$j(document).ready(function() {
-		
 		var colors = ['colour1','colour1','colour2','colour2','colour3','colour3','colour4','colour4',
 					 'colour5','colour5','colour6','colour6','colour7','colour7','colour8','colour8'];
 		var firstLookTime = 2000, flipTime = 500, game_on = true, is_first = true; 
@@ -44,7 +43,6 @@ var $j = jQuery.noConflict();
 		
 		// Game
 		var Game = function(){
-			
 			$j('.card').hover(function(){
 					$j(this).addClass('on_focus').siblings('.card').removeClass('on_focus');
 			},function(){
@@ -83,15 +81,14 @@ var $j = jQuery.noConflict();
 							e.stop();
 							$j('.on_focus').trigger('click');
 							break;
-					}
-				}
+					};
+				};
 				
 				$(document).observe('keydown', keyHandler);
 				is_first = false;
 			}	
 			
 			$j('.card').click(function(){
-				
 				if(lock_click){
 					return;
 				}
@@ -103,7 +100,6 @@ var $j = jQuery.noConflict();
 					flip('opened'+pairOpened, 1);
 					
 					if(pairOpened > 1 ){
-						
 						if(colorFirst === colorSecond){
 							//log('same');
 							$j('.'+colorFirst).addClass('frozen').removeClass('opened1');
@@ -126,6 +122,7 @@ var $j = jQuery.noConflict();
 								lock_click = false;
 							}, flipTime);
 						}
+
 						if(frozenCount === 16){
 							//log('win');
 							var $form_boxy = new Boxy("<form id='win_form' class='win_form'><h3>Congratulations! You win!</h3><h4>Your Score is: <span class='score_result'></span></h4></form>",
@@ -137,7 +134,6 @@ var $j = jQuery.noConflict();
 								unloadOnHide: true
 							});
 							$j('.score_result').text(userScore);
-							Submit($form_boxy);
 						}
 						
 					} else {
@@ -147,9 +143,8 @@ var $j = jQuery.noConflict();
 					
 				} else {
 					return;
-					}
+				}
 			});
-			
 		},
 		//Init
 		Init = function(){
@@ -170,10 +165,10 @@ var $j = jQuery.noConflict();
 				}, firstLookTime/2);
 				//first look.
 				setTimeout(function() {
-						updatePanel(userScore);	
-						$j('.card').addClass('flipback card_bg');
-							Game();
-							game_on = true;
+					updatePanel(userScore);	
+					$j('.card').addClass('flipback card_bg');
+					Game();
+					game_on = true;
 				}, firstLookTime);
 			}
 		}
@@ -181,4 +176,3 @@ var $j = jQuery.noConflict();
 		Boxy.confirm("Are you ready to start Colour Memory Game? You will have 2 seconds to look at all the color cards.", function() { Init(); });
 		$j('.boxy-btn1').focus();
 	});
-		
