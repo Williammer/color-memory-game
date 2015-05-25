@@ -35,87 +35,15 @@ var $j = jQuery.noConflict();
 			$scorePanel.html('Score: <h3>'+score+'</h3>');
 		}
 		
-		function validate(name, email){
-			
-			var name_pattern = /^[\d-_'a-z\u4e00-\u9eff]{1,30}$/i;
-			var email_pattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-			if(!name_pattern.test(name)){	
-				if(!alerting){
-					alerting = true;
-					Boxy.alert("Please input valid name.", null, {title: "Validation Problem", afterHide: function(){alerting = false;}} );
-				}
-				return false;
-			} else if(!email_pattern.test(email)){
-				if(!alerting){
-					alerting = true;
-					Boxy.alert("Please provide a valid email.", null, {title: "Validation Problem", afterHide: function(){alerting = false;}});
-				}
-				return false;
-			} else {
-				return true;
-			}
-		}
-		
 		function start() {
 			$j('.restart').click(function(){
 				 Init();  
 			});
 		}
 		start();
-		//Submit
-		var Submit = function($form_boxy){
-			
-			$j('#win_form').submit(function(e){
-			
-				e.preventDefault();
-				$player_name  = $j('.name').val();
-				$player_email = $j('.email').val();
-				
-				if(validate($player_name, $player_email)){
-				
-					if (request) {
-						request.abort();
-					}
-					
-					var request = $j.ajax({
-						type: "POST",
-						url: "processor.php",
-						data: { name: $player_name, email: $player_email, score: userScore },
-						beforeSend: function(){
-							//loading
-							$form_boxy.setContent('<center class="win_form"><div class="loader"></div><br/><span class="ajax_msg">Submiting...</span><br/><br/><br/></center>');
-						}
-					});
-					request.done(function (response, textStatus, jqXHR){
-						
-							if(response){
-								if(typeof response !== 'string'){
-									response = JSON.stringify(response);
-								}
-								try {
-									var data = $j.parseJSON(response);
-									$form_boxy.setContent('<center class="win_form"><in class="icon_ok close"></in><span class="ajax_msg">Submit Success!</span><br/><h5 class="mb10">You can try a better score</h5><input type="button" class="btn btn_gray btn_restart_pop restart close" id="restart_pop" value="Restart" /></center>');
-									start();
-								} catch(e) {
-									Boxy.alert("Error, may have error in server configuration.", null, {title: "Error"});
-									$form_boxy.setContent('<center class="win_form"><span class="ajax_msg">Submit Fail.</span></center>');
-								}
-							} else {
-								$form_boxy.setContent('<center class="win_form"><span class="ajax_msg">No data received. textStatus: '+textStatus+'; jqXHR:'+jqXHR+'</span></center>');
-							}
-					});
-
-					request.fail(function(jqXHR, textStatus, errorThrown){
-						Boxy.alert('Ajax request error.'+textStatus, errorThrown);
-						$form_boxy.setContent('<center class="win_form"><span class="ajax_msg">Submit Failed.</span></center>');
-					});
-
-				}
-			});
-
-		},
+		
 		// Game
-		Game = function(){
+		var Game = function(){
 			
 			$j('.card').hover(function(){
 					$j(this).addClass('on_focus').siblings('.card').removeClass('on_focus');
@@ -200,7 +128,7 @@ var $j = jQuery.noConflict();
 						}
 						if(frozenCount === 16){
 							//log('win');
-							var $form_boxy = new Boxy("<form id='win_form' class='win_form'><h3>Congratulations! You win!</h3><h4>Your Score is: <span class='score_result'></span></h4><h5>Want to see top scores and your rank?<br/>Just submit your Name and Email:</h5><div class='input_wrap'><label class='label' for='name'>Name: <input type='text' name='name' class='name' id='name' value='' maxlength='30' /></label><label class='label' for='email'>Email: <input type='text' name='email' class ='email' id='email' value='' maxlength='40'/></label><input type='submit' id='submit' class='btn btn_dark submit' value='Submit' /></div></form>",
+							var $form_boxy = new Boxy("<form id='win_form' class='win_form'><h3>Congratulations! You win!</h3><h4>Your Score is: <span class='score_result'></span></h4></form>",
 							{	draggable: false,
 								closeable: true,
 								fixed: true,
