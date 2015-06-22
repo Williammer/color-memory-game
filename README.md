@@ -7,7 +7,7 @@ This is a color memory game webapp developed with javaScript. It is developed on
 3. backbone version(developing).
 
 ## Online demo
-check: [colorMemGame online Demo](http://williammer.github.io/colorMemGame)
+check: [Color Memory Game online Demo](http://williammer.github.io/colorMemGame)
 
 ## License
 	The MIT License (MIT)
