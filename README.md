@@ -3,9 +3,9 @@ This is a color memory game webapp developed with javaScript. It is developed on
 
 ## different branch of version.
 1. jquery&prototypeJs and php submit score version.
-2. jquery&prototypeJs version.
-3. backbone version(tdo).
-4. test-driven manager-component version.
+2. backbone version(tdo).
+3. test-driven manager-component version.
+4. 
 
 ## Online demo
 check: [Color Memory Game online Demo](http://williammer.github.io/colorMemGame)
