@@ -6,7 +6,6 @@ This is a color memory game webapp developed with javaScript. It is developed on
 2. backbone version(tdo).
 3. test-driven manager-component version.
 
-
 ## Online demo
 check: [Color Memory Game online Demo](http://williammer.github.io/colorMemGame)
 
