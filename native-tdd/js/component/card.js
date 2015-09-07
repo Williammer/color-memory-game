@@ -47,7 +47,7 @@
         },
 
         flip: function() {
-            if (this.getState() === this.stateMap.FLIPPED) {
+            if (this.getState() === this.stateMap.FLIPPED || this.getState() === this.stateMap.MATCHED) {
                 return;
             }
 
