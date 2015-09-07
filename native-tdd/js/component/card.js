@@ -13,6 +13,8 @@
 
         this._currentState = this.stateMap.INACTIVE;
         this._cardEle = document.createElement('div');
+
+        this._initized = false;
     };
 
     app.Card.prototype = {
@@ -80,6 +82,10 @@
         },
 
         initDOMElement: function() {
+            if (this._initized) {
+                return;
+            }
+
             var stateClass = this.stateClassMap[this.getState()];
 
             this._cardEle.className = 'card ' + this._colorNum + ' ' + stateClass;
@@ -98,6 +104,8 @@
             });
 
             this._cardEle.addEventListener('click', this.flip.bind(this) );
+
+            this._initized = true;
         },
 
         getDOMElement: function() {
