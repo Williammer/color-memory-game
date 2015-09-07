@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>"Colour Memory"</title>
+	<link href="images/favicon.ico" rel="icon" />
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="game_board" id="game_board"></div>
+		
+		<div class="side">
+			<div class="logo"></div>			
+			<div class="score_panel">Score: <h3 id="score_label"></h3></div>
+			<div class="keyboard_support">Key Control is supported.</div>
+			<input type="button" class="btn btn_gray btn_restart restart" id="restart" value="Restart" />
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	window.app = {
+		observer: {
+			_eventList: {},
+			subscribe: function(event, handler, context) {
+				if (typeof event === 'string' && typeof handler === 'function') {
+					this._eventList[event] = {
+						context: context,
+						handler: handler
+					}
+				}
+			},
+			publish: function(event, args) {
+				if (typeof event === 'string' && typeof this._eventList[event].handler === 'function') {
+					var context = this._eventList[event].context;
+					this._eventList[event].handler.call(context, args);
+				}
+			},
+			clear: function(){
+				this._eventList = {};
+			}
+		}
+	};
+
+</script>
+<script type="text/javascript" src="js/component/score.js"></script>
+<script type="text/javascript" src="js/component/card.js"></script>
+<script type="text/javascript" src="js/component/board.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
