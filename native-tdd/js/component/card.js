@@ -61,7 +61,7 @@
             }
         },
 
-        match: function() {debugger
+        match: function() {
             this.setState(this.stateMap.MATCHED);
         },
 
@@ -87,7 +87,6 @@
             }
 
             var stateClass = this.stateClassMap[this.getState()];
-
             this._cardEle.className = 'card ' + this._colorNum + ' ' + stateClass;
 
             this._cardEle.addEventListener('mouseover', function(evt){
