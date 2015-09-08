@@ -37,7 +37,7 @@
                 this.render();
             }
         },
-        judgeMatch: function(cardIdObj) {debugger
+        judgeMatch: function(cardIdObj) {
             if (this._firstCardIdHolder === null) {
                 this._firstCardIdHolder = cardIdObj;
                 return;

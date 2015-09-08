@@ -48,7 +48,7 @@
             return this._cardElementList;
         },
 
-        resumeNotMatchedCards: function(cardPairIds) {debugger
+        resumeNotMatchedCards: function(cardPairIds) {
             if (!cardPairIds || !cardPairIds.length || cardPairIds.length !== 2) {
                 return;
             }
@@ -57,7 +57,7 @@
             cardElementList[cardPairIds[1]].resume();
         },
 
-        updateMatchedCards: function(cardPairIds) {debugger
+        updateMatchedCards: function(cardPairIds) {
             if (!cardPairIds || !cardPairIds.length || cardPairIds.length !== 2) {
                 return;
             }
