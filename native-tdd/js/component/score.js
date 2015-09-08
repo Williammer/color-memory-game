@@ -64,7 +64,7 @@
             }
         },
         render: function() {
-            var scoreLabel = window.document.getElementById('score_label');
+            var scoreLabel = document.getElementById('score_label');
             scoreLabel.textContent = this.getScore();
         },
 
