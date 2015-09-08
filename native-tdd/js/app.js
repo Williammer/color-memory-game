@@ -6,4 +6,4 @@
 	scoreKeeper.init();
 	board.init();
 
-})(window.app);
+})(app);

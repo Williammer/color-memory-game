@@ -121,4 +121,4 @@
             return this._cardEle;
         }
     };
-})(window.app);
+})(app);
