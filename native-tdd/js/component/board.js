@@ -36,9 +36,10 @@
 
             for (var i = 0; i <= cardsArray.length - 1; i++) {
                 colorNum = cardsArray[i];
+                
                 cardComp = new app.Card(colorNum);
+                cardComp.setId(i);
 
-                cardComp.getDOMElement().id = i;
                 this._cardElementList[i] = cardComp;
             };
         },

@@ -18,6 +18,14 @@
     };
 
     app.Card.prototype = {
+        setId: function(id) {
+            if (!id) {
+                return;
+            }
+
+            this._cardEle.id = id;
+        },
+
         getId: function() {
             return this._cardEle.id;
         },
