@@ -17,6 +17,8 @@
 
             app.observer.subscribe("cardMatch", this.updateMatchedCards, this);
             app.observer.subscribe("cardNotMatch", this.resumeNotMatchedCards, this);
+
+            this.addEventListener("keydown", this._keyHandler);
         },
 
         getInitCardList: function() {
@@ -36,7 +38,7 @@
 
             for (var i = 0; i <= cardsArray.length - 1; i++) {
                 colorNum = cardsArray[i];
-                
+
                 cardComp = new app.Card(colorNum);
                 cardComp.setId(i);
 
@@ -63,7 +65,7 @@
             }
             var cardElementList = this.getCardElementList();
             cardElementList[cardPairIds[0]].match();
-            cardElementList[cardPairIds[1]].match();   
+            cardElementList[cardPairIds[1]].match();
         },
 
         render: function() {
@@ -76,6 +78,32 @@
                 cardElement = cardElementList[i].getDOMElement();
                 boardWrap.appendChild(cardElement);
             };
+        },
+
+        _keyHandler: function(evt) {
+            switch (evt.keyCode) {
+                case 37:
+                 // left key pressed
+                var curFocusCard = document.querySelector(".on_focus");
+                //find left sibling
+                break;        
+                
+                case 38:
+                // up key pressed
+                break;        
+
+                case 39:
+                // right key pressed
+                break;   
+                    
+                case 40:
+                // down key pressed
+                break; 
+
+                default:
+                    console.log("evt.keyCode pressed: " + evt.keyCode);
+                break;
+            }
         }
     };
 })(app);
