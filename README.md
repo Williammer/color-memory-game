@@ -1,8 +1,11 @@
 # Introduction
-This is a color memory game webapp developed with javaScript. It is developed only for leisure and memory practicing purpose.
 
-# Online demo
-check: [colorMemGame online Demo](http://williammer.github.io/colorMemGame)
+This is a color memory game webapp developed with javaScript for leisure and memory practicing purpose.
+
+# Play online
+
+check: [colorMemGame online](https://williammer.github.io/color-memory-game/)
 
 ## License
-	The MIT License (MIT)
+
+The MIT License (MIT)
