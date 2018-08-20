@@ -189,31 +189,31 @@ input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, i
   -ms-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out; }
 
-.color-1 {
+.colour1 {
   background: transparent url(../images/colour1.gif); }
 
-.color-2 {
+.colour2 {
   background: transparent url(../images/colour2.gif); }
 
-.color-3 {
+.colour3 {
   background: transparent url(../images/colour3.gif); }
 
-.color-4 {
+.colour4 {
   background: transparent url(../images/colour4.gif); }
 
-.color-5 {
+.colour5 {
   background: transparent url(../images/colour5.gif); }
 
-.color-6 {
+.colour6 {
   background: transparent url(../images/colour6.gif); }
 
-.color-7 {
+.colour7 {
   background: transparent url(../images/colour7.gif); }
 
-.color-8 {
+.colour8 {
   background: transparent url(../images/colour8.gif); }
 
-.card.idle {
+.card_bg {
   background: transparent url(../images/card_bg.gif); }
 
 .on_focus {

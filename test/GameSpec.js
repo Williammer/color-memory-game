@@ -3,7 +3,7 @@ describe("Game", function() {
     beforeEach(function() {
 
     });
-/*
+
     // [B]
     describe('When Game is initiated', function () {
         //Game.init();
@@ -61,6 +61,29 @@ describe("Game", function() {
         });
     });
 
+    // [O] Board module
+    describe("#Board test", function() {
+        beforeEach(function() {
+
+        });
+
+        it("should have 16 cards", function() {
+
+        });
+        // [improve] can have changeable scales of cards selected by user.
+
+        it("should shuffle cards on each start", function() {
+
+        });
+
+        it("should trigger a card match process once 2 cards are flipped", function() {
+
+        });
+
+        it("should win the game when all cards are matched", function() {
+
+        });
+    });
 
     // [O] Match-card module 
     describe("#Match-card test", function() {
@@ -92,13 +115,28 @@ describe("Game", function() {
 
         });
     });
-*/
-    
 
+    // [O] Card module
+    describe("#Card test", function() {
+        beforeEach(function() {
 
-// end ----------------------------------------------------------------------------------------
+        });
+
+        it("should have correct color id on each card", function() {
+
+        });
+
+        it("should allow me to flip the card by click or key-enter", function() {
+
+        });
+        // [Improve]: right click feature
+        it("should have focused style when the card is focused", function() {
+
+        });
+    });
+
     // [O] Score module
-    /*describe("#Score test", function() {
+    describe("#Score test", function() {
         it("should correctly update score after each flip", function() {
             expect(function() {
 
@@ -123,6 +161,6 @@ describe("Game", function() {
         it("should send an email to the valid email provided by player", function() {
 
         });
-    });*/
+    });
 
 });

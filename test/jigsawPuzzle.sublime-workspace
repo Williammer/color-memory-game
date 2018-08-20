@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"check",
+				"checkVoteCount"
+			],
+			[
+				"key",
+				"KEY"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"slit",
+				"splitPara"
+			],
+			[
+				"para",
+				"paragraphs"
+			],
+			[
+				"sr",
+				"text_src"
+			],
+			[
+				"tex",
+				"text_src"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"find",
+				"findOpeningOrEnd"
+			],
+			[
+				"foot",
+				"footnote"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"el",
+				"el"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"borer",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"pro",
+				"processor"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"win",
+				"win_form"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"f",
+				"for	Attr"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jigsaw-puzzle-game/test/SpecRunner.html",
+			"settings":
+			{
+				"buffer_size": 1456,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 222.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/jigsaw-puzzle-game",
+		"/Applications/XAMPP/xamppfiles/htdocs/jigsaw-puzzle-game/js",
+		"/Applications/XAMPP/xamppfiles/htdocs/jigsaw-puzzle-game/test"
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/jigsaw-puzzle-game/test/GameSpec.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/color-memory-game/test/jigsawPuzzle.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/jigsaw-puzzle-game/test/SpecHelper.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/color_memory_game/src/Game.js",
+		"/Users/william/Desktop/Project.shortcuts/untitled.sublime-project",
+		"/Users/william/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/william/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/common.js/test/SpecHelper.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/common.js/package.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/color_memory_game/test/SpecHelper.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/js/app/wgt/GridItem.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/gradlew",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.base/js/ax/util.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/IIndicator.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/js/app/helper/appUtil.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/AbstractScrollable.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/css/ScrollableContainer.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/css/Scrollbar.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/css/Dialog.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-grid/js/ax/ext/ui/ScrollingGrid.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/ScrollingMediator.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/ScrollableContainer.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/Scrollbar.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/Dialog.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/interface/Scrollable.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/css/TextAreaNativeImpl.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/css/TextAreaDivImpl.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/TextAreaNativeImpl.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/TextAreaDivImpl.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/css/InputNativeImpl.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/css/InputDivImpl.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/interface/InputDisplay.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/InputNativeImpl.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/InputDivImpl.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.base/js/ax/loader/cssBuilder.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/IScrollable.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.base/js/ax/cssUtil.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/css/Layout.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-grid/js/ax/ext/ui/loopedGridStgy.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-grid/js/ax/ext/ui/LoopedGrid.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/Layout.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-basic/js/ax/ext/ui/Label.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.af/js/ax/af/evt/type.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/app.yaml",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/js/app/data/api.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/karma_example/test/BasicSpec.js",
+		"/Users/william/Desktop/requirejs-magix.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/_classic_fm/vue/gruntfile.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/_classic_fm/vue/grunt/tasks/build-test.js",
+		"/Users/william/Documents/百度云同步盘/原雲盤文檔/#learn and progress/12038956Writingefficientprograms/www.pudn.com.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/classic-fm/vue/grunt/tasks/dev.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/classic-fm/vue/grunt/tasks/casper.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/firstavalon/vendor/require/domReady.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/firstavalon/vendor/require/require.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/ajax2.0/css/zxx.lib.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/ajax2.0/css/normalize.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/ajax2.0/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/ajax2.0/css/style.css",
+		"/Users/william/my_app/server/rpc/demo.js",
+		"/Users/william/Desktop/编程智慧之源/backbone.js",
+		"/Users/william/Desktop/编程智慧之源/angular.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/dep/tv.accedo.xdk.base/js/ax/domReady.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/menuUpdater.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/ctrl/Home.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/amd.config.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lab_experiments/reflowFix/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/ctrl/Main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/wgt/PinDialog.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/helper/dialogHelper.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/tve-demo/src/js/tvedemo/ctrl/Main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/tve-demo/src/js/tvedemo/ctrl/Favorites.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/tve-demo/src/js/tvedemo/ctrl/TVShowsListing.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tve/TNZOvpService.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tve/AppGridService.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/ctrl/Splash.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/xdk.config.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/xdk.config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/php/proxy.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/wgt/AssetGrid.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tve/mgr/VODManager.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/ctrl/TVShowsListing.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk/src/js/tvedemo/tmpl/tvShowsListing.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/kb/init.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/kb/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/dep/tv.accedo.xdk.ext.ui-input/js/ax/ext/ui/Input.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/js/app/ctrl/FnFSubCtrl.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/carevision-xdk/src/js/app/wgt/Board.js",
+		"/Users/william/Desktop/uiDemo/basic/src/config.xml",
+		"/Users/william/Desktop/uiDemo/grid/src/config.xml",
+		"/Users/william/Desktop/uiDemo/grid/src/index.cehtml",
+		"/Users/william/Desktop/uiDemo/scrollableContainer/src/js/app.js",
+		"/Users/william/Desktop/app-project-skeleton/build.gradle",
+		"/Users/william/Desktop/app-project-skeleton/src/index.cehtml",
+		"/Users/william/Desktop/app-project-skeleton/src/dep/amd.config.js",
+		"/Users/william/Desktop/app-project-skeleton/src/js/xdk.config.js",
+		"/Users/william/Desktop/app-project-skeleton/src/dep/tv.accedo.xdk.base/js/ax/promise.js",
+		"/Users/william/Desktop/app-project-skeleton/src/widget.info",
+		"/Users/william/Desktop/app-project-skeleton/src/config.xml",
+		"/Users/william/Desktop/Code_ground/parse/js/script.js",
+		"/Users/william/Desktop/lazyload-master/test/public/lazyload.js",
+		"/Users/william/Desktop/lazyload-master/test/public/index.html",
+		"/Users/william/Desktop/lazyload-master/test/test.js",
+		"/private/var/folders/w0/xzld8r3s3lxbs6bfvv_wfrq40000gn/T/9139952e-db98-4826-ac12-0e8cd25b775f/mount/hdd1/var/www/public_html/index.php",
+		"/Users/william/Desktop/Code_ground/convertStr2HtmlExecise.js/js/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/convertStr2Html/js/ajax.js",
+		"/Users/william/Desktop/Code_ground/convertStr2Html/js/ajax.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/convertStr2Html/test.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/convertStr2Html/index.html",
+		"/Users/william/Desktop/Code_ground/convertStr2Html/index.html",
+		"/Users/william/Desktop/Code_ground/convertStr2Html/test.txt",
+		"/Users/william/Desktop/Code_ground/convertStr2Html/js/diy.js",
+		"/Users/william/Desktop/Code_ground/parse/index.html",
+		"/Users/william/Desktop/Code_ground/convertStr2Html/js/script.js",
+		"/Users/william/Desktop/Code_ground/williamJsBasic.js",
+		"/Users/william/Desktop/julyJs.js",
+		"/Users/william/Desktop/williamJsBasic.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Williammer.github.io/_layouts/default.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Williammer.github.io/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/DIY_advertisement/index.php",
+		"/Users/william/Desktop/Williammer.github.io/_posts/2014-06-03-Plan-of-June.markdown",
+		"/Applications/XAMPP/xamppfiles/htdocs/williammer.github.io/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/williammer.github.io/projects.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/williammer.github.io/_posts/2014-06-02-Join-Github-Pages.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/williammer.github.io/_layouts/post.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/williammer.github.io/posts.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/williammer.github.io/_config.yml"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Applications/XAMPP/xamppfiles/htdocs/telnz-xdk"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var",
+			", ",
+			"test_nums[0], ",
+			"function (",
+			"replace",
+			"cache",
+			"内存",
+			"lgPlayer",
+			"z",
+			"v",
+			"30",
+			"vote_locked",
+			"validate_id",
+			"btn_submit",
+			"nominee_panel",
+			"vote_param_",
+			"hklovingheart_vote_form",
+			"mrasia_vote_form",
+			"nominee_panel",
+			"checkVoteCount",
+			"btn_vote",
+			"vote_locked",
+			"btn_vote",
+			"voting_form",
+			"closeAction",
+			"__baseURL",
+			"appKey",
+			"baseURL",
+			"request:",
+			"request",
+			"ShiftStgy",
+			"selectCatById",
+			"mediaRequest",
+			"tvShowByAPIRequest",
+			"__getTVShow",
+			"getTVShowsDs",
+			"tvShowAssetGrid",
+			"__labelText",
+			"setText",
+			"wrapperText",
+			"__setElementText",
+			"__element",
+			");\n",
+			"{\n",
+			"output",
+			"arr",
+			"\n ",
+			"	 ",
+			"function",
+			"map\n",
+			"filterPara\n",
+			"}\n",
+			"blue",
+			"sm",
+			"{}\n",
+			"alert('ff');",
+			"$(",
+			"false",
+			"							<",
+			"'",
+			"\"",
+			"for",
+			"<label for=\"name\"><input type=\"text\" name=\"name\" id=\"name\" value=\"\" /></label>",
+			"',\n",
+			"dsddd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" + ",
+			"function(",
+			")\n",
+			"rand",
+			"fcos"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jigsaw-puzzle-game/test/SpecRunner.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jigsawPuzzle.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"game",
+				"src/Game.js"
+			],
+			[
+				"grid",
+				"src/dep/tv.accedo.xdk.ext.ui-grid/js/ax/ext/ui/Grid.js"
+			],
+			[
+				"uitl",
+				"src/js/app/helper/appUtil.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Project.shortcuts/tddCode.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
