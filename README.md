@@ -1,12 +1,8 @@
 # Introduction
-This is a color memory game webapp developed with various kinda of javaScript implementation.
+This is a color memory game webapp developed with native javaScript and TDD method.
 
-## different implementations.
-1. jquery&prototypeJs and php submit score version.
-2. native javascript and TDD version.
-
-## Online demo
-check: [Color Memory Game online Demo](http://williammer.github.io/works/colorMemGame)
+# Online demo
+check: [color Memory Game online Demo](http://williammer.github.io/colorMemGame/native-tdd)
 
 ## License
 	The MIT License (MIT)
