@@ -11,7 +11,7 @@ button::-moz-focus-inner {
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner {
+input[type="file"]>input[type="button"]::-moz-focus-inner {
   border: none;
 }
 
@@ -43,20 +43,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .btn:hover {
   text-decoration: none;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
-  );
+  background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
 }
 
 .btn:focus {
   text-decoration: none;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
-  );
+  background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -242,35 +234,35 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .colour1 {
-  background: transparent url(../images/colour1.gif);
+  background: #E63B3B;
 }
 
 .colour2 {
-  background: transparent url(../images/colour2.gif);
+  background: #E6E03B;
 }
 
 .colour3 {
-  background: transparent url(../images/colour3.gif);
+  background: #4FE63B;
 }
 
 .colour4 {
-  background: transparent url(../images/colour4.gif);
+  background: #3BE6C4;
 }
 
 .colour5 {
-  background: transparent url(../images/colour5.gif);
+  background: #3B8FE6;
 }
 
 .colour6 {
-  background: transparent url(../images/colour6.gif);
+  background: #6F3BE6;
 }
 
 .colour7 {
-  background: transparent url(../images/colour7.gif);
+  background: #FF00DE;
 }
 
 .colour8 {
-  background: transparent url(../images/colour8.gif);
+  background: #FF5A00;
 }
 
 .card_bg {
@@ -285,6 +277,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .no-csstransitions .flipback {
   background: transparent url(../images/card_bg.gif);
 }
+
 .flip {
   transform-style: preserve-3d;
   transition: all 200ms ease;
@@ -294,21 +287,25 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   -o-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
 }
+
 .face {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transition: opacity 0.15s ease;
   -webkit-transition: opacity 0.15s ease;
 }
+
 .flipfront {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   box-shadow: 0px 0px 2px 1px #888888;
 }
+
 .flipback {
   transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
 }
+
 .frozen {
   cursor: default;
   background: #fff url(../images/completed.png) center;
